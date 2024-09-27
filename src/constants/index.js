@@ -23,8 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    bcbsm,
+    nsf,
+    ford,
+    blupix,
+
   } from "../assets";
   
+  // importing all images from assests, png or svg
+
   export const navLinks = [
     {
       id: "about",
@@ -118,7 +125,7 @@ import {
     {
       title: "IT Intern",
       company_name: "Blue Cross Blue Shield of Michigan",
-      icon: starbucks,
+      icon: bcbsm,
       iconBg: "#383E56",
       date: "February 2016 - June 2018",
       points: [
@@ -131,7 +138,7 @@ import {
     {
       title: "Web Developer Intern",
       company_name: "Blue Cross Blue Shield of Michigan",
-      icon: tesla,
+      icon: bcbsm,
       iconBg: "#E6DEDD",
       date: "Sept. 2018 - May 2019",
       points: [
@@ -144,7 +151,7 @@ import {
     {
       title: "User Hardware Technician I",
       company_name: "iVantage Group & NSF International (Contract)",
-      icon: shopify,
+      icon: nsf,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -156,7 +163,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Advantage Resourcing & Ford Motor Company (Contract)",
-      icon: meta,
+      icon: ford,
       iconBg: "#E6DEDD",
       date: "Sept. 2023 - Present",
       points: [
@@ -170,7 +177,7 @@ import {
     {
         title: "Full Stack Developer",
         company_name: "BluPix - Blupix.me",
-        icon: meta,
+        icon:  blupix,
         iconBg: "#E6DEDD",
         date: "Jan 2020 - Present",
         points: [
